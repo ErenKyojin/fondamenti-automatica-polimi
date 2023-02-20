@@ -32,7 +32,14 @@ Puó contenere disturbi $d$ ed incertezza di modello (legame $(u,d) \to y$ ) non
 >
 >2. modello dinamico
 > $m*accelerazione = \sum$ forze $\implies m \ddot{y} = F - ky - hy$ cioè $m\ddot{y} (t) + h \dot{y} (t) + ky(t) = F(t)$
-> Anello : $F(t)$ non dipende
+> - Anello aperto: $F(t)$ non dipende da $y$, altrimenti non sarebbe termine noto
+> - Anello chiuso: se per **esempio** scegliamo:
+> $$F(t) = \alpha(y^O(t) - y(t)) + \beta \dot{y}(t)$$
+> Otteniamo
+>  $m\ddot{y}(t) + h\dot{y}(t) + ky(t) = \alpha y^o(t) - \alpha y(t) + \beta \dot{y}(t)$
+>  Ossia
+>   $$m\ddot{y}(t) + (h-  \beta)\dot{y}(t) + (k + \alpha)y(t) = \alpha y^o(t)$$
+> Il polinomio caratteristico dipende da $\alpha$ e $\beta$, quindi possiamo **cambiare la natura delle soluzioni**
 
 
 >[!esempio] di controllo in Anello chiuso
@@ -53,4 +60,6 @@ Puó contenere disturbi $d$ ed incertezza di modello (legame $(u,d) \to y$ ) non
 > 
 > ### Controllo in AC anello chiuso
 > Basato su misure $(y^o - y)$, si puó avere $e \neq 0$ anche se modello esatto nonstante l'incertezza si puó vedere e rendere piccolo
+
+
 
