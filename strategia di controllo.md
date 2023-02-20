@@ -29,13 +29,28 @@ Puó contenere disturbi $d$ ed incertezza di modello (legame $(u,d) \to y$ ) non
 > y = \frac{F}{K_{n}+\Delta K} = \frac{k_{n}}{k_{n} + \Delta K}y^o
 >$$
 >Quindi un errore di modello ($\Delta K$) diventa un errore nel controllo $(y \neq y^o)$
+>
+>2. modello dinamico
+> $m*accelerazione = \sum$ forze $\implies m \ddot{y} = F - ky - hy$ cioè $m\ddot{y} (t) + h \dot{y} (t) + ky(t) = F(t)$
+> Anello : $F(t)$ non dipende
 
 
 >[!esempio] di controllo in Anello chiuso
 > variabile di controllo proporzionale all'errore $\to (y^o - y)$ (convenzione quello che voglio meno quello che ho)
 > $$F = \alpha(y^o-y)\quad \alpha > 0$$
 > otetengo
-> $$y = \frac{F}{l}$$
+> $$y = \frac{F}{k_{n }+ \Delta k} \implies \frac{y^0-y}{y^o} = -\frac{k}{k + \alpha}$$
+> 1. Anche se $k = k_{n}$ e quindi $\Delta k = 0$ ho $\neq 0$
+> 2. Peró con $\alpha$ abbastanza grande posso permettermi un errore piccolo quanto voglio
 
 
+
+
+>[!tldr]
+>### Controllo in AA anello aperto
+> Basato solo sul modello $k$, errore $e = y^o - y$ nullo se modello esatto $(Ak =0)$ non si puó contrastare l'incertezza
+> 
+> 
+> ### Controllo in AC anello chiuso
+> Basato su misure $(y^o - y)$, si puó avere $e \neq 0$ anche se modello esatto nonstante l'incertezza si puó vedere e rendere piccolo
 
