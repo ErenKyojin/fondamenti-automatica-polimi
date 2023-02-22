@@ -224,3 +224,42 @@ Lin,TI,SP come in TC
 # Equilibrio
 Domanda, Dato un sistema dinamico sottoposto ad ingresso $u = \begin{pmatrix}t\\k\end{pmatrix} = \bar{u}$ costante.
 $\exists$ quale $\bar{x}$ costante/i tale per cui
+ $$
+\begin{rcases}
+x(0) = \bar{x} \\
+u = \begin{pmatrix}
+t \\
+k
+\end{pmatrix} = \bar{u}\quad \text{per }t,k \geq 0
+\end{rcases} \to x \begin{pmatrix}
+t \\
+k
+\end{pmatrix} = \bar{x} 
+\text{ per } t,k \geq 0 ?
+$$
+
+Se esistono, tali $\bar{x}$ si dicono **stati di equilibrio** per $u = \bar{u}$
+
+
+Come trovare gli stati di equilibrio?
+
+## Tempo continuo
+Se $x$ deve rimanere costante ($\bar{x}$) allora $\dot{x}$ deve essere zero quindi dato $\dot{x} = f(x,u)$
+con $u = \bar{u}$ costante
+Gli eventuali stati di equilibrio $\bar{x}$ sono le eventuali soluzioni di $f(\bar{x},\bar{u}=0)$
+
+
+
+## Tempo determinato
+Se $x$ deve rimanere costante allora $x(k+1) = x(k) \forall k$ quindi dato $x(k) = f(n(k-1),u(k-1))$ con $u(k) = \bar{u}$ cost.
+Gli equilibri sono le soluzioni di $\bar{x} = f(\bar{x},\bar{u})$
+
+## [[sistemi dinamici LTI]] a tempo continuo
+$$
+\begin{cases}
+\dot{x} = Ax + bu \\
+y = cx + du
+\end{cases}
+$$
+$u=\bar{u}$ costante gli equilibri soluzionei di $0 = A\bar{x} + b\bar{u}$
+Se $A$ non è si $\exists! \bar{x} = 0$
