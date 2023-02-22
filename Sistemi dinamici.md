@@ -154,4 +154,27 @@ y(t) = g(x(t),u(t),t)
 >y=x_{1}
 >\end{cases}
 >$$
+> Dinamico lineare, tempo invariante, strettamente proprio, secondo ordine
 
+
+>[!Esempio] Esempio 3
+>Pendolo
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}[scale=2]
+>\node[above] at (.5,-.7) {l};
+>\draw[thick](0,0) -- (1,-1.5)node[below]{m};
+>\draw (0,0) -- (0,-2);
+>\draw (0,0) arc (10:360:-.5);
+>\end{tikzpicture}
+>\end{document}
+>```
+>$\ddot{\theta} = \sum$ coppie
+> $$
+> \begin{align}
+> &\tau_{m} = u \\
+> &\tau_f = \text{ coppia di attrito} = -h \dot{\theta} \\
+> &\tau_{g} = \text{ coppia gravità} = mgl \sin \theta
+>\end{align}
+>$$
+>
