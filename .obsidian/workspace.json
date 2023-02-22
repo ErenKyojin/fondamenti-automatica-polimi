@@ -13,26 +13,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "strategia di controllo.md",
+                "file": "Sistemi dinamici.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "a1d0d23fef5fbedd"
           },
           {
             "id": "3d70a7978b9cff24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "canvas/Sistemi dinamici.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0,
+                  "snapToGrid": true
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "a477a278003e1267",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d5d5c1eb7e29881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi dinamici.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "a1d0d23fef5fbedd"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Sistemi dinamici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Sistemi dinamici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Sistemi dinamici.md"
               }
             }
           }
@@ -159,12 +182,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d70a7978b9cff24",
+  "active": "fd37940cd8cfd85a",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Sistemi dinamici.md",
     "strategia di controllo.md",
+    "README.md",
+    "canvas/Sistemi dinamici.canvas",
     "canvas/Controllo in anello chiuso con compensazione.canvas",
     "Problema del controllo.md",
-    "Untitled.md",
     "canvas/Controllo in anello aperto.canvas",
     "readme.md"
   ]
