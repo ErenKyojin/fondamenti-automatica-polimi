@@ -165,7 +165,7 @@ y(t) = g(x(t),u(t),t)
 >\node[above] at (.5,-.7) {l};
 >\draw[thick](0,0) -- (1,-1.5)node[below]{m};
 >\draw (0,0) -- (0,-2);
->\draw (0,0) arc (10:360:-.5);
+>\draw (-0.5,0) arc (0:10:-.5);
 >\end{tikzpicture}
 >\end{document}
 >```
@@ -178,3 +178,38 @@ y(t) = g(x(t),u(t),t)
 >\end{align}
 >$$
 >
+> $$
+>\begin{align}
+>&\dot{x}_{1 } = x_{2}\\
+> &\dot{x}_{2} = -\frac{g}{l}\sin x_{1} -\frac{h}{ml^2} x_{2} + \frac{1}{ml^2}u \\
+>&y=x_{1}
+>\end{align}
+>$$
+>Dinamico non lineare tempo invariante strettamente proprio
+
+
+# Sistema dinamico a tempo discreto (TD)
+Indice "temporale" discreto $k$ intero
+$$
+\begin{align}
+\begin{rcases}
+x_{1}(k) = \phi_{1}(x_{1}(k_{0}),\dots,x_{n}(k_{0}),u[k_{0},k],k)  \\
+\vdots \\
+x_{n}(k) = \phi_{n}(x_{1}(k_{0}),\dots,x_{n}(k_{0}),u[k_{0},k],k) \\
+\end{rcases} \\ \\
+\begin{rcases}
+y(k) = g(x_{1}(k_{0}),\dots,x_{n}(k_{0}),u[k_{0},k],k)
+\end{rcases}
+\end{align}
+
+$$
+
+Un modo di sostituzione il legame ($x(k_{0}),u[k_{0},k] \to x[k_{0},k]$) è tramite un equazione **alle defferenze**:
+$$
+\begin{align}
+\begin{rcases}
+x_{1}(k) =f_{1}(x_{1}(k-1),\dots,x_{n}(k-1),u(k-1),k) \\
+x_{n}
+\end{rcases}
+\end{align}
+$$
