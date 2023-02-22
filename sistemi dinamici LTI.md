@@ -23,5 +23,28 @@ a_{1n} & \dots & a_{nn}
 b_{1} \\
 \vdots \\
 b_{n}
-\end{bmatrix}\quad
+\end{bmatrix}\quad c = \begin{bmatrix} 
+c_{1} &
+\dots 
+&c_{n}
+\end{bmatrix}\quad x = \begin{bmatrix}
+x_{1} \\
+\vdots  \\
+x_{n}
+\end{bmatrix}
 $$
+$(A,b,c,d)$ si dice descrizione di stato
+
+
+# Tempo discreto
+Con molteplici definizioni
+$$
+\begin{cases}
+x(k) = Ax(k-1)+bu(k-1) &\text{due valori successivi di k} \\
+y(k) = cx(k) + du(k) &\text{un solo valore di k}
+\end{cases}
+$$
+Descrizione di stato A,b,c,d con $n$ ordine del sistema dinamico
+
+
+

@@ -219,4 +219,8 @@ Lin,TI,SP come in TC
 
 >[!oss]
 >L + TI importante, [[sistemi dinamici LTI]]
->
+
+
+# Equilibrio
+Domanda, Dato un sistema dinamico sottoposto ad ingresso $u = \begin{pmatrix}t\\k\end{pmatrix} = \bar{u}$ costante.
+$\exists$ quale $\bar{x}$ costante/i tale per cui

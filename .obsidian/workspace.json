@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sistemi dinamici LTI.md",
+                "file": "Sistemi dinamici.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sistemi dinamici LTI.md",
+                "file": "Sistemi dinamici.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sistemi dinamici LTI.md",
+                "file": "Sistemi dinamici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sistemi dinamici LTI.md",
+                "file": "Sistemi dinamici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sistemi dinamici LTI.md"
+                "file": "Sistemi dinamici.md"
               }
             }
           }
@@ -180,9 +180,9 @@
   },
   "active": "fd37940cd8cfd85a",
   "lastOpenFiles": [
+    "sistemi dinamici LTI.md",
     "Sistemi dinamici.md",
     "canvas/Sistemi dinamici.canvas",
-    "sistemi dinamici LTI.md",
     "SISO.md",
     "Untitled.canvas",
     "strategia di controllo.md",
