@@ -76,3 +76,13 @@ u[t_{0},t]
 $$
 
 ($u$ ingresso, $x$ stato, $y$ uscita)
+
+Consideriamo **quasi** sempre sistemi dinamici con un solo ingresso ed una sola uscita, detti anche single input single output
+![[SISO]] 
+
+## Espressione del sistema
+$$\begin{align}
+x_{1}(t) = \phi_{1}(x_{1}(t_{0}),x_{2}(t_{0}),\dots ,x_{n}(t_{0}),u[t_{0},t],t) \\ 
+\dots \\
+x_{n}(t) = \phi_{1}(x_{1}(t_{0}),x_{2}(t_{0}),\dots ,x_{n}(t_{0}),u[t_{0},t],t)
+\end{align}$$
