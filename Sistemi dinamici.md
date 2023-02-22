@@ -36,14 +36,14 @@ Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)
 >[!esempio] Esempio 5
 >Nastro trasportatore su cui una tramoggia deposita polvere
 >
->$u(t) $ 
+>$u(t) \quad [\frac{kg}{s}]$
+>$y(t)$ portata d'uscita 
+>
+>$y(t) = u(t) - \tau$ con $\tau$ tempo di trasporto
+>Per conoscere $y$ da $[t_{0},t]$ occorono $u([t_{0},t])$ e $y([t_{0}-\tau,t_{0}])$ 
+>Per l'esattezza $u[t_{0},t - \tau]$
+>
 
-
-```tikz
-\pgfplotsset{compat=1.1}
-\begin{document}
-\begin{tikzpicture}
-\draw(0,0) -- (1,1);
-\end{tikzpicture}
-\end{document}
-```=
+>[!esempio] Esempio 6
+>Lampada con un pulsante
+>Il pulsante accende o spegne in base allo stato, per conoscere l'andamento dell'accensione $y(t)$ su $[t_{0},t]$ occore conoscere l'ingresso, ossia gli istanti di rilascio del pulsante entro $[t_{0},t]$
