@@ -143,3 +143,15 @@ y(t) = g(x(t),u(t),t)
 > $$
 > m\ddot{y} + ky + h\dot{y} = F
 >$$
+>$u = F$
+>$x_{1} =$ posizione $=y$
+>$x_{2} =$ velocità $=\dot{y}$
+>$\implies \begin{cases}m\dot{x}_{2} + kx_{1} + hx_{2} = u\\y = x_{1}\end{cases}$
+> $$
+>\begin{cases}
+>\dot{x}_{1} = x_{2} \\
+> \dot{x}_{2} = -\frac{1}{m}x_{1} & -\frac{h}{m}x_{2} + \frac{1}{m} \\
+>y=x_{1}
+>\end{cases}
+>$$
+
