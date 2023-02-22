@@ -12,7 +12,7 @@
 Puó contenere disturbi $d$ ed incertezza di modello (legame $(u,d) \to y$ ) non esisattamente noto. Tramite $y_{m}$ o
 
 
-4. ![[Controllo in anello chius con compensazione.canvas]]
+4. ![[Controllo in anello chiuso con compensazione.canvas]]
 >[!esempio]
 > Grafico molla
 > 

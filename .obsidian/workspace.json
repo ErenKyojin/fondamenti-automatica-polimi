@@ -23,11 +23,15 @@
             "id": "3d70a7978b9cff24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "strategia di controllo.md",
-                "mode": "source",
-                "source": false
+                "file": "canvas/Controllo in anello chiuso con compensazione.canvas",
+                "viewState": {
+                  "x": 0.5,
+                  "y": 0,
+                  "zoom": -0.2745076434537285,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -98,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "strategia di controllo.md",
+                "file": "canvas/Controllo in anello chiuso con compensazione.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "strategia di controllo.md",
+                "file": "canvas/Controllo in anello chiuso con compensazione.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "strategia di controllo.md"
+                "file": "canvas/Controllo in anello chiuso con compensazione.canvas"
               }
             }
           }
@@ -161,11 +165,11 @@
   },
   "active": "3d70a7978b9cff24",
   "lastOpenFiles": [
-    "Untitled.md",
     "strategia di controllo.md",
     "Problema del controllo.md",
+    "Untitled.md",
     "canvas/Controllo in anello aperto.canvas",
-    "canvas/Controllo in anello chius con compensazione.canvas",
+    "canvas/Controllo in anello chiuso con compensazione.canvas",
     "readme.md"
   ]
 }
