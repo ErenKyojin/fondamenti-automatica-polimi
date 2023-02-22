@@ -82,7 +82,19 @@ Consideriamo **quasi** sempre sistemi dinamici con un solo ingresso ed una sola 
 
 ## Espressione del sistema
 $$\begin{align}
+&\begin{rcases}
 x_{1}(t) = \phi_{1}(x_{1}(t_{0}),x_{2}(t_{0}),\dots ,x_{n}(t_{0}),u[t_{0},t],t) \\ 
-\dots \\
-x_{n}(t) = \phi_{1}(x_{1}(t_{0}),x_{2}(t_{0}),\dots ,x_{n}(t_{0}),u[t_{0},t],t)
+\vdots \\
+x_{n}(t) = \phi_{n}(x_{1}(t_{0}),x_{2}(t_{0}),\dots ,x_{n}(t_{0}),u[t_{0},t],t)
+\end{rcases} &\text{funzioni di transizione dello stato} \\
+&\begin{rcases}
+y(t)  = g(x_{1}(t_{0}),x_{2}(t_{0}),\dots ,x_{n}(t_{0}),u[t_{0},t],t)\quad
+\end{rcases} &\text{equazione a trasformazione d'uscita}
 \end{align}$$
+
+Questo puó sostanziaresi matematicamente in diversi modi. Il principale è attraverso l'uso di equazioni differenziali
+
+$x(t) = \begin{bmatrix}x_{1}(t) \\ \vdots \\ x_{n}(t)\end{bmatrix}$ è soluzione di un equazione differenziale
+$\dot{x}_{1}(t) = f_{1}(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)$
+$\dot{x}_{1}(t) = f_{1}(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)$
+$y(t) = g(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)$\gamma
