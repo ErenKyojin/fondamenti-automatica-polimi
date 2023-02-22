@@ -95,6 +95,51 @@ y(t)  = g(x_{1}(t_{0}),x_{2}(t_{0}),\dots ,x_{n}(t_{0}),u[t_{0},t],t)\quad
 Questo puó sostanziaresi matematicamente in diversi modi. Il principale è attraverso l'uso di equazioni differenziali
 
 $x(t) = \begin{bmatrix}x_{1}(t) \\ \vdots \\ x_{n}(t)\end{bmatrix}$ è soluzione di un equazione differenziale
-$\dot{x}_{1}(t) = f_{1}(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)$
-$\dot{x}_{1}(t) = f_{1}(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)$
-$y(t) = g(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)$\gamma
+$$\begin{align}
+\dot{x}_{1}(t) = f_{1}(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)\\
+\dot{x}_{n}(t) = f_{n}(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)
+\end{align} \text{equazioni di stato}$$
+$y(t) = g(x_{1}(t),x_{2}(t),\dots,x_{n}(t),u(t),t)$
+
+
+E l'espressione vettoriale diventa
+$$
+\begin{cases}
+\dot{x}(t) = f(x(t_{1}),u(t),t) \\
+y(t) = g(x(t),u(t),t)
+\end{cases}$$
+
+>[!def]
+>$f$ e $g$ lineare in $x$ e $u$ allora il sitema dinamico è **lineare **
+
+>[!def]
+>$f = f(x,u)$ e $g=g(x,u)$ il sistema dinamico è **tempo invariante** o **stazionario**.
+
+>[!def]
+>$g = g(x,t)$ allora il sistema dinamico è **strettamente proprio**
+>
+>>[!warning]
+>>L'ingresso influenza comunque l'uscita **attraverso** lo stato!
+
+
+>[!esempio]
+>circuito RC
+>
+>$x + Ri = u$
+>$i = C \frac{d}{dt}x = C\dot{x}$
+>
+> $$\begin{cases}
+>x + RC\dot{x} = u \\
+> y = x
+>\end{cases} \implies \begin{cases}
+> \dot{x} = \frac{1}{RC}x + \frac{1}{RC}u \\
+> y = x
+>\end{cases}
+>$$
+>Sistema dinamico, lineare, tempo invariante
+
+
+>[!esempio]
+> $$
+> m\ddot{y} + ky + h\dot{y} = F
+>$$
