@@ -46,4 +46,33 @@ Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)
 
 >[!esempio] Esempio 6
 >Lampada con un pulsante
->Il pulsante accende o spegne in base allo stato, per conoscere l'andamento dell'accensione $y(t)$ su $[t_{0},t]$ occore conoscere l'ingresso, ossia gli istanti di rilascio del pulsante entro $[t_{0},t]$
+>Il pulsante accende o spegne in base allo stato, per conoscere l'andamento dell'accensione $y(t)$ su $[t_{0},t]$ occore conoscere l'ingresso, ossia gli istanti di rilascio del pulsante entro $[t_{0},t]$ e lo stato di accensione iniziale a $t_{0}$ (che è un booleano). Si tratta di un sistema dinamico
+>
+>>[!oss]
+>> ```tikz
+>>\begin{document}
+>>\begin{tikzpicture}
+>>\draw (-1.5,0) --(-1,0) -- (-1,1) -- (0,1) -- (0,0) -- (1,0) -- (1,1) -- (1.2,1) -- (1.2,0);
+>>\end{tikzpicture}
+>>\end{document}
+>>```
+>>Se gli istanti di rilascio sono l'ingresso è equivalente
+>
+>>[!oss]
+>>Se non interessa tutta $y([t_{0},t])$ ma soltanto $y(t)$ l'informazione che occorre è $y(t_{0})$ ed il fatto che il numero di rilasci sia pari o dispari
+
+
+Al momento ci specializziamo in 2 classi di sistemi dinamici ma l'idea è molto piú generale di esse
+
+# Sistema dinamico (SD) a tempo continuo (TC)
+La quantità di cui occorre conoscere il valore iniziale per poter conoscere l'uscita noto l'ingresso ed ovviamente i parametri del sistema. Si dicono **variabili di stato** e tradizionalmente si indicano con $x$, un certo $x(t_{0})$  ed un certo $u([t_{0},t])$
+
+quindi
+$$
+\begin{rcases}
+x(t_{0}) \\
+u[t_{0},t]
+\end{rcases}\rightarrow  x(t), y(t) \text{ su }[t_{0},t]\quad t \in \mathbb{R}
+$$
+
+($u$ ingresso, $x$ stato, $y$ uscita)
