@@ -207,9 +207,16 @@ $$
 Un modo di sostituzione il legame ($x(k_{0}),u[k_{0},k] \to x[k_{0},k]$) è tramite un equazione **alle defferenze**:
 $$
 \begin{align}
-\begin{rcases}
+&\begin{rcases}
 x_{1}(k) =f_{1}(x_{1}(k-1),\dots,x_{n}(k-1),u(k-1),k) \\
-x_{n}
-\end{rcases}
+\vdots \\
+x_{n}(k) = f_{n}(x_{1}(k-1),\dots,x_{n}(k-1),u(k-1),k)
+\end{rcases} \text{eqazione di stato} \\
+&y(k) = y(x_{1}(k),\dots,x_{n}(k),u(k),k)
 \end{align}
 $$
+Lin,TI,SP come in TC
+
+>[!oss]
+>L + TI importante, [[sistemi dinamici LTI]]
+>
