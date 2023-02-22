@@ -262,4 +262,42 @@ y = cx + du
 \end{cases}
 $$
 $u=\bar{u}$ costante gli equilibri soluzionei di $0 = A\bar{x} + b\bar{u}$
-Se $A$ non è si $\exists! \bar{x} = 0$
+Se $A$ non è singolare (?) $\exists! \bar{x} = -A^{-1}b\bar{u}$
+altrimenti o $\cancel{ \exists } \bar{a}$ o $\exists \infty \bar{a}$i
+
+## Uscita di equilibrio
+Se $\exists \bar{x}$ per $u = \bar{u}$ in generale puó esistere l'uscita di equilibrio $\bar{y} = g(\bar{x},\bar{u})$
+Nel caso LTI $\exists$ sempre $\bar{y} = c\bar{x} + d\bar{u}$
+
+
+
+>[!esempio] Esempio 1 - Massa molla
+> $$
+>\begin{cases}
+>\dot{x}_{1} = x_{2} \\
+\dot{x}_{2} = -\frac{k}{m}x - \frac{h}{m}x_{2} + \frac{1}{m}u \\
+y= x
+>\end{cases}
+>$$
+>
+> $$
+> \begin{align}
+> \begin{bmatrix}
+>\dot{x}_{1} \\
+> \dot{x}_{2}
+>\end{bmatrix} = \begin{bmatrix}
+>0 & 1 \\
+>-\frac{k}{m} & \frac{h}{m}
+>\end{bmatrix} + \begin{bmatrix}
+>0 \\
+>\frac{1}{m}
+>\end{bmatrix}u \\
+>y = \begin{bmatrix}
+1 & 0
+\end{bmatrix} \begin{bmatrix}
+x_{1} \\
+x_{2}
+\end{bmatrix}
+>\end{align}
+>$$
+>Pongo $u = \bar{u} : \exists \bar{x}$?
