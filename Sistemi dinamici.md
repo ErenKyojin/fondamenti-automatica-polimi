@@ -222,3 +222,4 @@ Lin,TI,SP come in TC
 
 
 ![[Equilibrio]]
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi dinamici.md",
+                "file": "Equilibrio.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi dinamici.md",
+                "file": "Equilibrio.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi dinamici.md",
+                "file": "Equilibrio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi dinamici.md",
+                "file": "Equilibrio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi dinamici.md"
+                "file": "Equilibrio.md"
               }
             }
           }
@@ -180,8 +180,8 @@
   },
   "active": "fd37940cd8cfd85a",
   "lastOpenFiles": [
-    "Equilibrio.md",
     "Sistemi dinamici.md",
+    "Equilibrio.md",
     "sistemi dinamici LTI.md",
     "canvas/Sistemi dinamici.canvas",
     "SISO.md",

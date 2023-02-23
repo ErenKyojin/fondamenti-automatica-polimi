@@ -77,3 +77,44 @@ x_{2}
 >\end{align}
 >$$
 >Pongo $u = \bar{u} : \exists \bar{x}$?
+
+
+>[!esempio] Esempio 2 - pendolo
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}[scale=2]
+>\node[above] at (.5,-.7) {l};
+>\draw[thick](0,0) -- (1,-1.5)node[below]{m};
+>\draw (0,0) -- (0,-2);
+>\draw (0.,-.5) arc (270:300:.5);
+>\end{tikzpicture}
+>\end{document}
+>```
+>
+>Pongo $u = \bar{u}$ e cerco gil stati di equilibrio
+> $$
+> \begin{align}
+> & \dot{x}_{1} = 0 \\
+>  & \dot{x}_{2} = 0
+>\end{align} \implies \begin{cases}
+>\bar{x}_{2}= 0 \\
+>0 = -\frac{g}{l} \sin \bar{x}_{1} - \cancel{ \frac{h}{ml^2}\bar{x}_{2} } + \frac{1}{ml^2}\hat{u}
+>\end{cases}
+>$$
+>
+>Risultato:
+>$$\begin{cases}
+>\bar{x}_{1} = \arcsin \left( \frac{\bar{u}}{mgl} \right) \\
+>\bar{x}_{2} = 0
+>\end{cases}$$
+>Che ci porta a diversi casi
+>1. Se $|U| = mgl$ non esiste equilibrio, quindi non si ferma mai
+>2. $\bar{u}=0$ se $x = 0, \pi$
+>   
+>   ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw[thick] (0,0) -- (0,2);
+>\end{tikzpicture}
+>\end{document}
+>```
