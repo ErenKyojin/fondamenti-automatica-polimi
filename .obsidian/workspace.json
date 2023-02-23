@@ -17,8 +17,20 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "1e1770b96653455c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linearizazione.md",
+                "mode": "source",
+                "source": false
+              }
             },
-            "group": "a1d0d23fef5fbedd"
+            "group": "72b00804c4f2cd01"
           },
           {
             "id": "9295dfc9f6eb9625",
@@ -44,24 +56,25 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "a477a278003e1267",
+        "id": "d26a2f1ed0da5906",
         "type": "tabs",
         "children": [
           {
-            "id": "9d5d5c1eb7e29881",
+            "id": "0c8ea46550d5e758",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elevamento ad una matrice.md",
-                "mode": "source",
+                "file": "Linearizazione.md",
+                "mode": "preview",
                 "source": false
               }
             },
-            "group": "a1d0d23fef5fbedd"
+            "group": "72b00804c4f2cd01"
           }
         ]
       }
@@ -129,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elevamento ad una matrice.md",
+                "file": "Linearizazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elevamento ad una matrice.md",
+                "file": "Linearizazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elevamento ad una matrice.md"
+                "file": "Linearizazione.md"
               }
             }
           }
@@ -190,10 +203,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd37940cd8cfd85a",
+  "active": "1e1770b96653455c",
   "lastOpenFiles": [
-    "Equilibrio.md",
     "elevamento ad una matrice.md",
+    "Linearizazione.md",
+    "Equilibrio.md",
     "Sistemi dinamici.md",
     "Formula di lagrange.md",
     "sistemi dinamici LTI.md",
