@@ -112,9 +112,45 @@ x_{2}
 >2. $\bar{u}=0$ se $x = 0, \pi$
 >   
 >   ```tikz
+> \usetikzlibrary{arrows.meta}
 >\begin{document}
 >\begin{tikzpicture}
->\draw[thick] (0,0) -- (0,2);
+>\draw[thick,-{Circle}] (0,0) -- (0,2);
+>\draw (0,0) -- (0,-2);
+>\draw(0,-0.25) arc (90:270:-.3);
+>\draw[thick,{Circle}] (4,0) -- (4,-2);
 >\end{tikzpicture}
 >\end{document}
 >```
+
+
+# Equilibrio nel caso LTI a TD
+Deve essere $\bar{x} = A\bar{x} + b\bar{u}$
+$$
+\implies (I - A) \bar{x} = b\bar{u}
+$$
+Se $I - A$ non è singolare, ossia se $A$ non ha autovalori in $1$, $\exists! \bar{x} = (I-A)^{-1}b\bar{u}$ altrimenti o $\cancel{ \exists } \bar{x}$ o $\exists \infty \bar{x}$
+
+
+$$
+\begin{rcases}
+x(0)\\
+u\left(\begin{align}
+t \\
+k
+\end{align}\right)
+\end{rcases} \to x \begin{pmatrix}
+t \\
+k
+\end{pmatrix}, y \begin{pmatrix}
+t \\
+k
+\end{pmatrix} \qquad t,k \geq 0
+$$
+
+$$\begin{cases}
+x(k) = Ax(k-1) + bu(k-1) \\
+y(k) = cx(k) + du(k)
+\end{cases}$$
+
+Dati $x(0)$ (ricordando che tempo invariante significa che posso mettere lo zero dei tempi dove voglio)
