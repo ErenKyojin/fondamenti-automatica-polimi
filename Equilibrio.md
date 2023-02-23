@@ -153,4 +153,32 @@ x(k) = Ax(k-1) + bu(k-1) \\
 y(k) = cx(k) + du(k)
 \end{cases}$$
 
-Dati $x(0)$ (ricordando che tempo invariante significa che posso mettere lo zero dei tempi dove voglio)
+Dati $x(0)$ (ricordando che tempo invariante significa che posso mettere lo zero dei tempi dove voglio), e $u(k)$ con $k \geq 0$ il movimento dello stato:
+$$
+\begin{align}
+&x_{0} \text{ dato} \\
+&x(1) = Ax(0) + bu(0) \\
+&x(2) = Ax(1) + bu(1) = A^2x(0) + Abu(0) + bu(1) \\
+&x(3) = A^3x(0) + A^2bu(0) + Abu(1) + bu(2) \\
+&\dots \\
+&\fbox{$x(k) = \fcolorbox{blue}{blue}{$A^kx_{0}$} + \fcolorbox{red}{}{$\sum_{l = 0}^{k-1} A^{k-l-1} bu(l)$}$}
+\end{align}
+$$
+**Quella riquadrata si dice formula di lagrange a tempo determinato per lo stato**
+
+In blu movimento libero delo stato
+In rosso movimento forzato dello stato
+
+- Movimento di $x$ è la somma di ML e MF
+- Il movimento libero dipende linearmente da $x(0)$ e non dipende da $u(k)$
+- Il movimento forzato dipende linearmente da $u(k)$ e non dipende da $x(0)$
+  
+  Vale cioè il principio di sovrapposizione degli effetti
+
+Movimento del scita (Formula di C)
+
+$$
+\begin{align}
+y(k) &= cx(k) 
+\end{align}
+$$
