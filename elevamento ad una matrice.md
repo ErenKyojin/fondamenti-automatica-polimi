@@ -1,0 +1,1 @@
+Per elevare alla potenza di una matrice $A$ vediamo prima il caoso in cui sia diagonalizzabile

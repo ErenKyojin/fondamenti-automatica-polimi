@@ -161,7 +161,7 @@ $$
 &x(2) = Ax(1) + bu(1) = A^2x(0) + Abu(0) + bu(1) \\
 &x(3) = A^3x(0) + A^2bu(0) + Abu(1) + bu(2) \\
 &\dots \\
-&\fbox{$x(k) = \fcolorbox{blue}{blue}{$A^kx_{0}$} + \fcolorbox{red}{}{$\sum_{l = 0}^{k-1} A^{k-l-1} bu(l)$}$}
+&\fbox{$x(k) = \fcolorbox{blue}{}{$A^kx_{0}$} + \fcolorbox{red}{}{$\sum_{l = 0}^{k-1} A^{k-l-1} bu(l)$}$}
 \end{align}
 $$
 **Quella riquadrata si dice formula di lagrange a tempo determinato per lo stato**
@@ -175,10 +175,29 @@ In rosso movimento forzato dello stato
   
   Vale cioè il principio di sovrapposizione degli effetti
 
-Movimento del scita (Formula di C)
+Movimento dell'uscita (Formula di Lagrange)
 
 $$
 \begin{align}
-y(k) &= cx(k) 
+y(k) &= cx(k) + du(k) \\
+ & = \fcolorbox{blue}{}{$cA^kx(0)$} + \fcolorbox{red}{}{$c \sum_{l=0}^{k-1} A^{k-l-1} bu(l) + du(k)$}
 \end{align}
 $$
+
+Formule di lagrange a TC
+
+
+Movimento a $TC$
+$$
+\begin{align}
+
+&\dot{x} = 2x \\
+&x(0 ) = 4 \\
+&x(t)\ t \geq 0 \\
+&x(t) = e^{2t}x(0) = 4e^{-2t}
+\end{align}
+$$
+
+>[!oss]
+>Per sistemi di ordine maggiore di uno occorre calcolare $e^{At}$ con $A$ matrice. [[elevamento ad una matrice]]
+
