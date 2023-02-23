@@ -13,6 +13,26 @@ Vogliamo determinare un sistema lineare che approssima il comportamento di $S$ n
 
 Consideriamo l'equazione di stato, e sviluppiamola in serie fermandoci al primo ordine:
 $$
-f(\bar{x} + \delta x, \bar{u} + \delta u) = f(\bar{x},\bar{u}) + f_{x}\bigg|_{\bar{x},\bar{u}} \delta x + f_{u}|
+f(\bar{x} + \delta x, \bar{u} + \delta u) = \cancel{ f(\bar{x},\bar{u}) } + \underbrace{ f_{x} }_{ \frac{\delta f}{\delta x}  }\bigg|_{\bar{x},\bar{u}} \delta x + f_{u}\bigg|_{\bar{x},\bar{u}}\delta u
 $$
-Con i $\delta$ variazioni di $x$ e $u$ rispetto all'equilibrio
+Con i $\delta$ variazioni di $x$ e $u$ rispetto all'equilibrio, $f(\bar{x}, \bar{u}) = 0$ perchè $\bar{x}$ è stato di equilibrio (lo abbiamo appositamente cercato)
+
+$$
+\dot{x}=\frac{d}{dt} (\bar{x} + \delta x) = \frac{d}{dt} \delta x = \dot{\delta x}\qquad \bar{x}\text{ costante} 
+$$
+Quindi $\dot{\delta x} = f_{x} \bigg|_{\bar{x},\bar{u}} \delta x + f_{u}\bigg|_{\bar{x},\bar{u}}\delta u$ equazione di stato del sistema linearizzato alle variazioni
+
+Consideriamo l'equazione di uscita e operiamo allo stesso modo
+ $$
+\underbrace{ g(\bar{x} + \delta x, \bar{u} + \delta u) }_{ y } = \underbrace{ g(\bar{x}, \bar{u}) }_{ \bar{y} } + g_{x}\bigg|_{\bar{x},\bar{u}} + g_{u}\bigg|_{\bar{x},\bar{u}} \delta u
+$$
+$y - \bar{y}= \delta y =  g_{x}\bigg|_{\bar{x},\bar{u}} + g_{u}\bigg|_{\bar{x},\bar{u}} \delta u$
+
+
+
+>[!conclusione]
+>Dato il sistema dinamico NL $S : \begin{cases}\dot{x} = f(x,u) \\ y = g(x,u)\end{cases}$ con equilibrio $(\bar{u},\bar{x},\bar{y})$ il sistema linearizzato nell'intorno di quell'equilibrio è
+> $$ S^\delta : \begin{cases}
+> \delta_{x} = \\
+>\delta_{y}
+>\end{cases}$$
