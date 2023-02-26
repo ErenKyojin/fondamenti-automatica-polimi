@@ -33,6 +33,28 @@ $y - \bar{y}= \delta y =  g_{x}\bigg|_{\bar{x},\bar{u}} + g_{u}\bigg|_{\bar{x},\
 >[!conclusione]
 >Dato il sistema dinamico NL $S : \begin{cases}\dot{x} = f(x,u) \\ y = g(x,u)\end{cases}$ con equilibrio $(\bar{u},\bar{x},\bar{y})$ il sistema linearizzato nell'intorno di quell'equilibrio è
 > $$ S^\delta : \begin{cases}
-> \delta_{x} = \\
->\delta_{y}
+> \delta_{x} = \underbrace{ f_{x} }_{ \frac{\delta f}{\delta x}  }\bigg|_{\bar{x},\bar{u}} \delta x + f_{u}\bigg|_{\bar{x},\bar{u}}\delta u\\
+>\delta_{y} = g_{x}\bigg|_{\bar{x},\bar{u}} + g_{u}\bigg|_{\bar{x},\bar{u}} \delta u
 >\end{cases}$$
+
+Con $\delta u = u - \bar{u}, \delta x = x - \bar{x}, \delta y = y - \bar{y}$
+
+
+>[!oss] Interpretazione 
+>
+> 
+> 
+> ```mermaid
+> flowchart LR
+> 	U((u)) --> S --> Y((y))
+> ```
+> Linearizzazione nell'intorno dell'equazione $(\bar{u},\bar{x},\bar{y})$
+> 
+> ```mermaid
+> graph LR
+> 	u --> u' 
+> 	y' -->  y
+> 	subgraph LIN
+> 	u' --> S --> y'
+> 	end
+>```
