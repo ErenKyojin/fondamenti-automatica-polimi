@@ -98,5 +98,23 @@ ML $\to 0 \forall x(0)$ equivae a dire che tutti i modi $e^{\lambda_{i}t}$ devon
 	- $\lambda_{i} = 0$ modo costante
 	- $\lambda_{i} < 0$ modo $\to 0$
 - $\lambda_{i} = \alpha \pm j\beta$ coppia complessa coniugata con $\alpha,\beta \in \mathbb{R}$:
-  $e^{(\alpha + j\beta )t} = e^{\alpha t} (\cos(\beta t) + j\sin(\beta t))$
-	- 
+  $e^{(\alpha + j\beta )t} = e^{\alpha t} \underbrace{ \cancel{ (\cos(\beta t) + j\sin(\beta t)) } }_{ \text{limitata} }$:
+	-  $Re(\lambda_{i}) < 0$ modo converge
+	- $Re (\lambda_{i}) = 0$ modo costante
+	- $Re(\lambda_{i}) > 0$ modo diverge 
+
+## Stabilità e autovalori di $A$  (SD LTI a TC)
+- Tutti gli autovalori di $A$ hanno parte $Re < 0$ $\iff$ il sistema **asintitcamente stabile**
+- Almeno un autovalore di $A$ ha parte reale positiva (ne basta uno) $\implies$ **Sistema instabile**
+- Tutti gli autovalori di $A$ hanno parte reale minore o uguale di 0 e ne esiste almeno uno con parte reale uguale a zero $\implies$ il sistema può essere **o instabile** **o stabile** ma **non** __asintoticamente stabile__
+
+## Caso lineare a tempo invariante a tempo discreto
+$$x_{L}(k) = A^kx(0)$$
+### Caso con $A$ diagonalizzaible
+$$\begin{align}
+A^k &= (T\text{diag}(\lambda_{i})T^{-1})^k = \\
+&= T\text{diag}(\lambda_{i})\cancel{ T^{-1}T }\text{diag}(\lambda_{i})\dots k \text{ volte} \\
+&= T\text{diag}(\underbrace{ \lambda_{i}^k }_{ \text{modi} })T^{-1}
+\end{align}$$
+
+Quindi, generalizzando al caso non diagonalizzabile piú avanti, in generale è vero che:
