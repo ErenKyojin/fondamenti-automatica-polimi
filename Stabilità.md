@@ -25,7 +25,7 @@ Si può applicare il concetto a [[Equilibrio|equilibri]], (movimenti) e qualche 
 
 
 
-## Stabilita nei [[sistemi dinamici LTI]] (STC)
+# Stabilita nei [[sistemi dinamici LTI]] (STC)
 $\dot{x} = Ax + bu$
 Sia $\bar{x}$ uno stato di equilibrio per $u = \bar{u}$ costante, allora
 $$
@@ -79,4 +79,24 @@ u(t) = \begin{cases}
 \text{Qualsiasi segnale }&t < \bar{t} \\
 0 &t \geq \bar{t}
 \end{cases}
-$$ allora per $t \geq \bar{t}$ c'è movimento libero e quindi $x,y \to 0$ per $t \to \infty$ 
+$$ allora per $t \geq \bar{t}$ c'è movimento libero e quindi $x,y \to 0$ per $t \to \infty$ (Puoi "spegnerli", tolgo l'ingresso -> il sistema si spegne)
+
+
+## Stabilità dei [[sistemi dinamici LTI]] e matrice $A$ (TC)
+- Caso $A$ diagonalizzabile
+  $$\begin{align}
+\underbrace{ x_{L}(t) }_{ \text{ML di }x } &= e^{At}x(0)  = e^{T \text{diag}
+(\lambda_{1})T^{-1}}x(0) = \\
+&= Te^{\text{diag}(\lambda_{1})t}T^{-1}x(0) = \\
+&= T \text{diag}(\underbrace{ e^{\lambda t} }_{ \text{modi del sistema} })T^{-1}x(0)
+\end{align}$$
+
+$A$ reale $\implies \lambda_{i}$ reali oppure a coppie complesse coniugate
+ML $\to 0 \forall x(0)$ equivae a dire che tutti i modi $e^{\lambda_{i}t}$ devono tendere a $0$ per $t \to \infty$
+- $\lambda_{i}$ reale:
+	-  $\lambda_{i} > 0$ modo diverge
+	- $\lambda_{i} = 0$ modo costante
+	- $\lambda_{i} < 0$ modo $\to 0$
+- $\lambda_{i} = \alpha \pm j\beta$ coppia complessa coniugata con $\alpha,\beta \in \mathbb{R}$:
+  $e^{(\alpha + j\beta )t} = e^{\alpha t} (\cos(\beta t) + j\sin(\beta t))$
+	- 
