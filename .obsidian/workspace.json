@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "criteri di stabilità.md",
+                "file": "tabella di Routh.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "4fbef632ec66da2d"
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "criteri di stabilità.md",
+                "file": "tabella di Routh.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "criteri di stabilità.md",
+                "file": "tabella di Routh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "criteri di stabilità.md",
+                "file": "tabella di Routh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "criteri di stabilità.md"
+                "file": "tabella di Routh.md"
               }
             }
           }
@@ -168,8 +168,10 @@
   },
   "active": "116649a4e2cb9fbe",
   "lastOpenFiles": [
-    "Stabilità.md",
+    "criterio di Routh.md",
+    "tabella di Routh.md",
     "criteri di stabilità.md",
+    "Stabilità.md",
     "sistemi dinamici LTI.md",
     "Problema del controllo.md",
     "SISO.md",

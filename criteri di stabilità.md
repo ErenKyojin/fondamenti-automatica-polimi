@@ -19,7 +19,5 @@ $$\det(A) = \prod_{i}^n S_{i} \implies \text{Se }\det(A)=0 \exists s_{i} = 0 \im
 >3. $\Pi(S) = s^5 + 4s^3 + 3s^2 + s + 5 \implies$ Non asintoticamente stabile, manca il termine $s^4$ (un coeff nullo)
 >4. $\Pi(S) = s^4 + 2s^3 + 4s^2 + s + 5 \implies$ Non lo so, le coondizioni sono necessarie non sufficienti
 
-```
-a
-```
-$=$
+
+[[criterio di Routh]]
