@@ -118,3 +118,6 @@ A^k &= (T\text{diag}(\lambda_{i})T^{-1})^k = \\
 \end{align}$$
 
 Quindi, generalizzando al caso non diagonalizzabile piú avanti, in generale è vero che:
+- $|\lambda_{i}| < 1\quad \forall i \iff$ sistema AS
+- $\exists i : |\lambda_{i}| > 1 \implies$ sistema I
+- $\begin{cases}|\lambda_{i}| \leq 1\forall i\\\exists i : |\lambda_{1}| = 1\end{cases} \implies$ Sistema I o Sistema S, **MAI** sistema AS 
