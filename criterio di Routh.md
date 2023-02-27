@@ -51,11 +51,35 @@ Si basa sulla [[tabella di Routh]] che si costruiisce a partire dal polinomio ca
 > \begin{array}{}
 >1 & h \\
 >2 & k \\
->\alpha
+>\alpha & 0 \\
+>\beta
 >\end{array}\qquad \begin{align}
 > \alpha = -\frac{1}{2} \det \left( \begin{bmatrix}
 >1 & h \\
 >2  &k
->\end{bmatrix} \right) = \frac{1}{2}(k - 2h) 
+>\end{bmatrix} \right) = \frac{1}{2}(2h - k)  \\
+>\beta = -\frac{2}{2h-k} \det \left( \begin{bmatrix}
+>2 & k \\
+>\alpha & 0
+>\end{bmatrix} \right) = k
 >\end{align}
 >$$
+>Disequazioni per imporre i termini della prima colonna concordi, ossia > 0.
+>
+>$$\begin{cases}
+>2h - k > 0 \\
+>k > 0
+>\end{cases} \implies \begin{cases}
+>h < 2h
+>\end{cases}$$
+>
+> ```tikz
+\begin{document}
+\begin{tikzpicture}[scale = 1.5]
+> \draw[->](-1,0) -- (2,0) node[below]{h};
+> \draw[->](0,-1) --(0,2) node[right]{k};
+> \draw[] (-.5,-1.25) -- (1,2.5);
+> \filldraw[color = red, fill = yellow!20, thick] (0,0) -- (1,2.5) -- (2,2.5) -- (2,0) -- (0,0);
+>\end{tikzpicture}
+>\end{document}
+>```

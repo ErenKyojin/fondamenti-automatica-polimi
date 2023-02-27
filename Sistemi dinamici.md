@@ -5,7 +5,7 @@ Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)
 - No $\implies$ sistema **dinamico**
 
 >[!esempio] Esempio 1
-> ![[Untitled.canvas]]
+> ![[Segnali.canvas]]
 > $y(t) = \frac{1}{R}v(t)$
 > Quindi $u(t)$ su $[t_{0},t] \implies$ noto $y(t)$ su $[t_{0},t]$ quindi il sistema non è dinamico
 > 
