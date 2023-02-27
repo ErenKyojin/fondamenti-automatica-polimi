@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linearizazione.md",
+                "file": "Linearizzazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linearizazione.md",
+                "file": "Linearizzazione.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linearizazione.md",
+                "file": "Linearizzazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linearizazione.md",
+                "file": "Linearizzazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linearizazione.md"
+                "file": "Linearizzazione.md"
               }
             }
           }
@@ -206,7 +206,7 @@
   "active": "1e1770b96653455c",
   "lastOpenFiles": [
     "elevamento ad una matrice.md",
-    "Linearizazione.md",
+    "Linearizzazione.md",
     "Equilibrio.md",
     "Sistemi dinamici.md",
     "Formula di lagrange.md",

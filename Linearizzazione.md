@@ -1,4 +1,4 @@
-lINEARIZZAZIONE DI sdnl [[SISO]], TC, nell'interno di un equilibrio
+Linearizzazione di un sdnl [[SISO]], TC, nell'interno di un equilibrio
 
 Consideriamo un SD NL (TI)
 $$
