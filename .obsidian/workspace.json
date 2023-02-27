@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stabilità.md",
+                "file": "criteri di stabilità.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stabilità.md",
+                "file": "criteri di stabilità.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stabilità.md",
+                "file": "criteri di stabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stabilità.md",
+                "file": "criteri di stabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stabilità.md"
+                "file": "criteri di stabilità.md"
               }
             }
           }
@@ -168,8 +168,9 @@
   },
   "active": "116649a4e2cb9fbe",
   "lastOpenFiles": [
-    "sistemi dinamici LTI.md",
     "Stabilità.md",
+    "criteri di stabilità.md",
+    "sistemi dinamici LTI.md",
     "Problema del controllo.md",
     "SISO.md",
     "Sistemi dinamici.md",

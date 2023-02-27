@@ -121,3 +121,6 @@ Quindi, generalizzando al caso non diagonalizzabile piú avanti, in generale è 
 - $|\lambda_{i}| < 1\quad \forall i \iff$ sistema AS
 - $\exists i : |\lambda_{i}| > 1 \implies$ sistema I
 - $\begin{cases}|\lambda_{i}| \leq 1\forall i\\\exists i : |\lambda_{1}| = 1\end{cases} \implies$ Sistema I o Sistema S, **MAI** sistema AS 
+
+
+[[criteri di stabilità]]
