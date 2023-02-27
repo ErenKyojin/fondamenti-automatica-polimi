@@ -18,13 +18,44 @@ Si basa sulla [[tabella di Routh]] che si costruiisce a partire dal polinomio ca
 >Tabella di Routh, $n = 4 \implies 5$ righe:
 > $$
 > \begin{array}{}
->1 & 4 & 5 \\
->2 & 1 & 0 \\
->\alpha
->\end{array} \qquad \begin{align}
-> \alpha = \frac{1}{2}\det(\begin{bmatrix}
->1 & 
->\end{bmatrix})
+>1 & 4 & 5  & \dots\\
+>2 & 1 & 0  & \dots\\
+>\alpha & \beta & 0 & \dots \\
+>\gamma & 0 & 0 & \dots \\
+>\delta 
+>\end{array} \qquad\qquad \begin{align}
+> &\alpha = -\frac{1}{2}\det\left(\begin{bmatrix}
+>1 & 4 \\
+2 & 1
+>\end{bmatrix}\right) = \frac{7}{2} \\
+>&\beta= -\frac{1}{2} \det \left( \begin{bmatrix}
+>1 & 5 \\
+2 & 0
+>\end{bmatrix} \right) = 5  \\
+&\gamma = -\frac{1}{\alpha} \det \left( \begin{bmatrix}
+>2 & 1 \\
+>\alpha & \beta
+>\end{bmatrix}\right) = -\frac{13}{7}\quad\text{non AS} \\
+> &\delta = -\frac{1}{\gamma} \det \left( \begin{bmatrix}
+>\alpha & \beta \\
+>\gamma & 0
+>\end{bmatrix} \right) = \beta = 5 \\
 >\end{align}
 >$$
+>Due radici di segno
 
+
+>[!esempio] Esempio 2
+>Dato il SD LTI a TC con PC $\Pi(s) = s^3 + 2s^2 + hs + k$ dire per quali coppie $(h,k)$ è asintoticamente stabile
+> $$
+> \begin{array}{}
+>1 & h \\
+>2 & k \\
+>\alpha
+>\end{array}\qquad \begin{align}
+> \alpha = -\frac{1}{2} \det \left( \begin{bmatrix}
+>1 & h \\
+>2  &k
+>\end{bmatrix} \right) = \frac{1}{2}(k - 2h) 
+>\end{align}
+>$$
