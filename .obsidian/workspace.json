@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tabella di Routh.md",
+                "file": "criterio di Routh.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tabella di Routh.md",
+                "file": "criterio di Routh.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tabella di Routh.md",
+                "file": "criterio di Routh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tabella di Routh.md",
+                "file": "criterio di Routh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tabella di Routh.md"
+                "file": "criterio di Routh.md"
               }
             }
           }
@@ -168,8 +168,8 @@
   },
   "active": "116649a4e2cb9fbe",
   "lastOpenFiles": [
-    "criterio di Routh.md",
     "tabella di Routh.md",
+    "criterio di Routh.md",
     "criteri di stabilità.md",
     "Stabilità.md",
     "sistemi dinamici LTI.md",
