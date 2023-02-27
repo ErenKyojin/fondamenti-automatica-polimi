@@ -52,3 +52,31 @@ Quindi $x_{\Delta}(t) - \bar{x} = e^{At} \Delta \bar{x}$ dove a sinistra abbiamo
 >[!tldr]
 >Nei sistemi lineari tempoinvarianti la stabilità è una proprietà intrinseca del sistema, e non dei singoli equilibri.
 >Inoltre la stabilità del sistema dipende soltanto dal copmortamento (convergente, limitato o divergente) di $e^{At}\Delta \bar{x}$ cioè $e^{At}$ ($\Delta \bar{x}$ è solo un fattore di scala), cioè dalla matrice $A$ (in particolare dai suoi autovalori)
+
+
+>[!esempio]
+>Sistema LTI a TC di ordine $1$: $\dot{x} = ax$ con $a$ sclaare, l'equilibrio è $\bar{x} = 0$
+> $$
+> x(0) = \Delta \bar{x} \implies x(t) = e^{at}\Delta \bar{x} = \begin{cases}
+>a < 0 \implies x(t) \to 0 \implies \text{Sist AS} \\
+>a = 0 \implies x(t) \text{ cost} \implies \text{ Sist S} \\
+> a > 0 \implies x(t) \text{ diverge} \implies \text{sist I}
+>\end{cases}
+>$$
+
+
+In generale $x_{\Delta}(t) - \bar{x} = e^{At}\Delta \bar{x}$ quindi
+- $e^{At} = \mathbf{0}_{(n,n)}$ per $t \to \infty \implies$ sistema AS (Movimento libero di $x \to \mathbf{0}$)
+- $e^{At}$ diverge per $t \to \infty \implies$ sistema instabile (Movimento libero di $x$ diverge tranne eccezzioni)
+- $e^{At}$ non tende a $0$ ne diverge per $t \to \infty$ $\implies$ sistema Stabile (Il movimento libero ne va a zero ne diverge)
+
+
+### Proprietà dei SD LTI AS (a TC)
+
+1. I ML di $x$ e di $y$ tendono a $0$ per $t \to \infty$ quindi tali sistemi dinamici "dimenticano" lo stato iniziale
+2. Se $$
+u(t) = \begin{cases}
+\text{Qualsiasi segnale }&t < \bar{t} \\
+0 &t \geq \bar{t}
+\end{cases}
+$$ allora per $t \geq \bar{t}$ c'è movimento libero e quindi $x,y \to 0$ per $t \to \infty$ 
