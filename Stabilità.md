@@ -36,5 +36,19 @@ u(t) = \bar{u}
 $$
 E quindi
 $$
-e^{At} x(0) + \int_{0}^t e^{A(t-\tau)} bu(\tau) \, d\tau 
+e^{At} x(0) + \int_{0}^t e^{A(t-\tau)} bu(\tau) \, d\tau = \bar{x} 
 $$
+
+Consideriamo ora il [[movimento]] perturbato $x_{\Delta}(t)$ prodotto da $u(t) =\bar{u}$ e $x(0) = \bar{x} + \Delta \bar{x}$
+$$
+x_{\Delta}(t) = \underbrace{ e^{At}(\bar{x} + \Delta \bar{x}) }_{ \text{ML cambiato} } + \underbrace{ \int _{0}^t e^{A(t-\tau)}bu(\tau)\, d\tau }_{ \text{MF uguale} }
+$$
+Quindi $x_{\Delta}(t) - \bar{x} = e^{At} \Delta \bar{x}$ dove a sinistra abbiamo il modo in cui $x_{\Delta}(t)$ si muove attorno a $\bar{x}$ (che non dipende dal particolare $\bar{x}$ non essendoci al secondo membro).
+
+>[!important] Importante
+>Quindi **tutti** gli equilibri (se ve ne sono) hanno le stesse  caratteristiche di stabilità
+
+
+>[!tldr]
+>Nei sistemi lineari tempoinvarianti la stabilità è una proprietà intrinseca del sistema, e non dei singoli equilibri.
+>Inoltre la stabilità del sistema dipende soltanto dal copmortamento (convergente, limitato o divergente) di $e^{At}\Delta \bar{x}$ cioè $e^{At}$ ($\Delta \bar{x}$ è solo un fattore di scala), cioè dalla matrice $A$ (in particolare dai suoi autovalori)
